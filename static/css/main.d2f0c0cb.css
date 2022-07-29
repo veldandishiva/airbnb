@@ -1,0 +1,288 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none
+}
+
+body {
+    font-size: 15px;
+    font-weight: 300;
+    overflow-x: hidden
+}
+
+.nav-bar {
+    background-color: #fff;
+    border-bottom: 1px solid #d3d0d0;
+    box-shadow: 10 10 10 #000001;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000
+}
+
+.logo img {
+    height: 30px;
+    width: 100px
+}
+
+.img-logo {
+    left: 5%;
+    position: relative;
+    top: 25px
+}
+
+.search-bar {
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 30px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .18);
+    display: inline-block;
+    left: 38%;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    top: -18px;
+    width: 350px
+}
+
+.search-bar:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .18), 0 4px 5px 0 rgba(0, 0, 0, .15)
+}
+
+.search-bar ul {
+    display: inline-flex;
+    left: -40px;
+    position: relative;
+    top: -8px
+}
+
+.search-bar a {
+    color: #000;
+    font-style: bold;
+    font-weight: 550;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.add-guest a {
+    font-weight: 100
+}
+
+.host {
+    color: #000;
+    font-weight: 500;
+    left: 80%;
+    position: relative;
+    top: -50px
+}
+
+.host a {
+    color: #000;
+    text-decoration: none
+}
+
+.browser {
+    height: 30px;
+    left: 88%;
+    position: relative;
+    top: -75px;
+    width: 30px
+}
+
+#sign-btn {
+    border: 1px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .18);
+    cursor: pointer;
+    height: 40px;
+    left: 92%;
+    position: absolute;
+    top: 18px;
+    width: 80px;
+    z-index: 1000
+}
+
+#sign-btn:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .18), 0 2px 5px 0 rgba(0, 0, 0, .15)
+}
+
+.search-icon {
+    border-radius: 50%;
+    left: 280px;
+    position: relative;
+    top: 4px;
+    width: 30px
+}
+
+.login-img {
+    left: 93.4%;
+    position: relative;
+    top: -105px;
+    width: 25px
+}
+
+.btn-login {
+    height: 20px;
+    left: 93%;
+    position: relative;
+    top: -108px;
+    width: 20px
+}
+
+.btn-login:hover {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .18);
+    height: 21px;
+    width: 21px
+}
+
+#sign {
+    font-weight: 500
+}
+
+.places-details {
+    z-index: 100
+}
+
+.places-container {
+    background-color: #fff;
+    border-bottom: 1px solid #dfdddd;
+    color: #000;
+    padding: 20px;
+    position: relative;
+    position: fixed;
+    top: 80px;
+    width: 100%;
+    z-index: 100
+}
+
+.places-container a {
+    color: #000
+}
+
+.places .col {
+    color: #000;
+    z-index: 100
+}
+
+.place-name {
+    display: inline-block;
+    padding-right: 10px;
+    z-index: 100
+}
+
+.small-icon {
+    width: 40px
+}
+
+.list-places {
+    cursor: pointer;
+    position: relative;
+    top: 200px
+}
+
+.row1 {
+    cursor: pointer;
+    padding-left: 60px;
+    width: 100%
+}
+
+.col1 {
+    display: inline-block
+}
+
+.details-box {
+    display: inline-block;
+    height: 300px;
+    margin-left: 30px;
+    padding-left: 30px
+}
+
+.details-box,
+.img-place {
+    cursor: pointer;
+    width: 300px
+}
+
+.img-place {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .18);
+    height: 250px
+}
+
+.place-name {
+    font-weight: 700
+}
+
+.dist-time,
+.place-name {
+    color: #000;
+    font-size: medium
+}
+
+.dist-time {
+    font-weight: lighter
+}
+
+.price,
+.rating {
+    color: #000
+}
+
+.rating {
+    font-size: medium;
+    left: 95%;
+    top: -61px
+}
+
+.rating,
+.star {
+    position: relative
+}
+
+.star {
+    left: 227px;
+    top: -28%;
+    width: 30px
+}
+
+.heart {
+    left: 235px;
+    top: -115%;
+    width: 25px
+}
+
+.footer,
+.heart {
+    position: relative
+}
+
+.footer {
+    background-color: #fff;
+    border-top: 1px solid grey;
+    position: fixed;
+    top: 800px;
+    width: 100%
+}
+
+.footer-details {
+    left: 10%;
+    position: relative
+}
+
+.footer-details li {
+    color: grey;
+    display: inline-block;
+    padding: 10px
+}
+
+@media only screen and(max-width:600) {
+    .img-logo {
+        display: none;
+        width: 0
+    }
+}
+
+/*# sourceMappingURL=main.d2f0c0cb.css.map*/
